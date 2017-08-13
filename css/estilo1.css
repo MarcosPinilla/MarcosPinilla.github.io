@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #009688;
+}
+
+li {
+    float:right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00695C;
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #80CBC4;
+}
+
+div.gallery {
+
+    
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+
+div.gallery a{
+    float: left;
+}
+
+div.gallery:hover {
+    size: 120%
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    position: relative;
+    left: 12.5%;
+}
+
+a img:hover{
+    size: 150%
+}
